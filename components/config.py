@@ -23,7 +23,6 @@ def config_form():
             "length_preference": length_preference,
         }
         st.success("Config saved successfully")
-        st.rerun()
     return
 
 def download_config():
