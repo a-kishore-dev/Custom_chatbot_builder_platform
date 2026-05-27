@@ -19,7 +19,6 @@ def format_docs(docs):
 
 def create_rag_chain():
     prompt_template = create_chatprompt_template()
-    gemini_llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", streaming=True)
     groq_llm = ChatGroq(model="llama-3.1-8b-instant", streaming=True)
     if ss.chats[ss.current_chat].get("vector_store"):
         retriever = ss.chats[ss.current_chat]["vector_store"].as_retriever(search_kwargs={"k": 3})
