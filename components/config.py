@@ -22,6 +22,8 @@ def config_form():
             "forbidden_topics": forbidden_topics,
             "length_preference": length_preference,
         }
+        st.success("Config saved successfully")
+        st.rerun()
     return
 
 def download_config():
