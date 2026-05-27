@@ -2,6 +2,8 @@
 
 A **production-ready, multi-chatbot platform** built with [Streamlit](https://streamlit.io/), [LangChain](https://www.langchain.com/), and [Google Generative AI](https://ai.google.dev/). Create, configure, and manage custom chatbots with document-based RAG (Retrieval-Augmented Generation), persistent chat history, and advanced observability through LangSmith.
 
+App URL: <a href="https://custom-chatbot-builder-platform.streamlit.app/">Custom Chatbot Builder Platform</a>
+
 <img src="images/chat_interface.png" width="800" height="500" alt="Chat Interface Demo">
 
 ---
