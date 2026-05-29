@@ -114,14 +114,13 @@ def draw_sidebar():
                 ss.current_chat = chat_id
                 st.rerun()
 
-init_state()
-config_buttons()
-page()
-
-draw_sidebar()
-
-
-
-# ss.chat_history = get_chat_history()
-# ss.vectorstore = get_vectorstore()
-# ss.chain = get_chain()
+def main():
+    st.set_page_config(page_title="Custom Chatbot Builder", page_icon="images/icon.png", layout="wide")
+    init_state()
+    config_buttons()
+    page()
+    
+    draw_sidebar()
+    
+if __name__ == "__main__":
+    main()
