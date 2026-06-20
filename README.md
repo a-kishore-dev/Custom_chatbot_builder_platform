@@ -46,7 +46,7 @@ App URL: <a href="https://custom-chatbot-builder-platform.streamlit.app/">Custom
 1. **Clone & Setup**
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/a-kishore-dev/Custom_chatbot_builder_platform
 cd custom-chatbot-builder-platform
 uv sync  # or: pip install -r requirements.txt
 ```
@@ -334,7 +334,7 @@ CMD ["streamlit", "run", "main.py"]
 
 ### Streamlit Cloud
 
-1. Push to GitHub
+1. Push to Hub
 2. Deploy at [share.streamlit.io](https://share.streamlit.io)
 3. Add secrets: `GOOGLE_API_KEY`, `GROQ_API_KEY`
 4. Deploy automatically
